@@ -69,7 +69,7 @@ app.use(helmet({ contentSecurityPolicy: false, crossOriginEmbedderPolicy: false 
   //: ['http://localhost:3000']; // fallback for local dev
 
 app.use(cors({
-  origin: "https://ledger-knight-1.netlify.app/",
+  origin: "https://ledger-knight.onrender.com",
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
 }));
