@@ -64,21 +64,21 @@ app.set('trust proxy', 1);
 app.use(helmet({ contentSecurityPolicy: false, crossOriginEmbedderPolicy: false }));
 
 // ✅ Fixed CORS setup
-const allowedOrigins = process.env.CORS_ORIGIN
-  ? process.env.CORS_ORIGIN.split(',').map(origin => origin.trim())
-  : ['http://localhost:3000']; // fallback for local dev
+//const allowedOrigins = process.env.CORS_ORIGIN
+//  ? process.env.CORS_ORIGIN.split(',').map(origin => origin.trim())
+  //: ['http://localhost:3000']; // fallback for local dev
 
 app.use(cors({
-  origin: allowedOrigins,
+  origin: "https://ledger-knight-1.netlify.app/",
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
 }));
 
 // Explicitly handle preflight requests
-app.options('*', cors({
+/*app.options('*', cors({
   origin: allowedOrigins,
   credentials: true
-}));
+}));*/
 
 // Parse JSON bodies
 app.use(express.json());
