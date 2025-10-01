@@ -1,6 +1,8 @@
 # Ledger Knight
 
-Ledger Knight is an open-source financial management platform designed to help individuals and businesses efficiently track, manage, and analyze their transactions and accounts. The project aims to provide a user-friendly interface and robust backend for seamless ledger operations.
+Ledger Knight is an open-source financial management platform designed for individuals and businesses to efficiently track, manage, and analyze their transactions and accounts. The app streamlines personal and corporate finance, making it easy to monitor balances, categorize transactions, and gain insights with powerful analytics—all from a secure, user-friendly interface.
+
+> **Visit the live app:** [https:/ledger-knight.onrender.com](https:/ledger-knight.onrender.com)
 
 ## Features
 
@@ -17,42 +19,6 @@ Ledger Knight is an open-source financial management platform designed to help i
 - **Backend**: [Describe backend technology, e.g., Node.js, Django, Spring Boot]
 - **Database**: [Mention database, e.g., MongoDB, PostgreSQL]
 - **Authentication**: [e.g., JWT, OAuth2]
-
-## Getting Started
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/jeevapriyan10/Ledger-Knight.git
-   ```
-
-2. **Install Dependencies**
-   - Frontend:
-     ```bash
-     cd Ledger-Knight-fend
-     npm install
-     ```
-   - Backend:
-     ```bash
-     cd Ledger-Knight-bend
-     npm install
-     ```
-
-3. **Configure Environment Variables**
-   - Create `.env` files in both frontend and backend directories.
-   - Set up variables for DB connection, authentication secrets, etc.
-
-4. **Run the Application**
-   - Start backend server:
-     ```bash
-     npm start
-     ```
-   - Start frontend server:
-     ```bash
-     npm start
-     ```
-
-5. **Access the App**
-   - Open your browser and navigate to `http://localhost:3000`
 
 ## Contributing
 
